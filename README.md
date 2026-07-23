@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/SF-FLAM/ElixirBrowser/releases/latest"><img src="https://img.shields.io/badge/Download-Latest-brightgreen?style=for-the-badge"></a>
+  <a href="https://github.com/SF-FLAM/ElixirBrowser/releases"><img src="https://img.shields.io/badge/Download-Releases-brightgreen?style=for-the-badge"></a>
   <a href="https://github.com/sponsors/SF-FLAM"><img src="https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors"></a>
   <a href="https://buymeacoffee.com/sf_flam"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black"></a>
 </p>
@@ -80,10 +80,10 @@ To be honest, it is quite a struggle for a solo developer. To ensure the long-te
 
 ## Download
 
-The latest APK versions are available at the link below:
+All releases and APK versions are available at the link below:
 
 
-<<**[Latest Releases](https://github.com/SF-FLAM/ElixirBrowser/releases/latest)**>>
+<<**[Releases](https://github.com/SF-FLAM/ElixirBrowser/releases)**>>
 
 <br>
 
@@ -104,8 +104,7 @@ Consequently, some features have been retained because removing them could break
 
 ## Bug Reports
 
-If you encounter any issues, please report them via GitHub Issues. I will do my best to improve the app.  
-Note: I primarily use the app with the **Tab Bar enabled and Top Toolbar mode**. Bugs occurring in other UI configurations might have been overlooked.
+If you encounter any issues, please report them via GitHub Issues. I will do my best to improve the app (probably). 
     
 <<**[Issues](https://github.com/SF-FLAM/ElixirBrowser/issues)**>>
 
@@ -113,29 +112,21 @@ Note: I primarily use the app with the **Tab Bar enabled and Top Toolbar mode**.
 
 ## Q & A
 
+Q : **Is this browser stable enough for daily use?**  
+A : I personally use Elixir as my main browser every day and am satisfied with its stability, but your experience may vary.  
+Since this is a solo project, updates may occasionally contain critical bugs, crashes, or broken features. In particular, bugs that do not occur on my own devices are often overlooked. Please use this browser with the understanding that it is a work-in-progress, and use it at your own risk.  
+<br>
 Q : **What are the system requirements?**  
 A : It follows the base Chromium specifications. **Android 10+ (ARM64)** is needed. There is no 32-bit version available.  
+**That said, please note that compatibility is not guaranteed, as I can only test on my own devices.**  
 <br>
 Q : **Why isn't this open source? Show me the code!**  
 A : I aim to make it open source in the future.  
-However, all code comments are written in Japanese, so I want to translate them into English before publishing.  
+**At the moment, all code comments are written in Japanese, so I want to translate them into English before publishing.**  
 My priority is on updates, and I don't have the bandwidth for code management yet, so I plan to proceed slowly.  
+In any case, I promise I won't take the code to my grave. Even if the code is still messy, I will release everything if I ever decide to shut down the project.  
 <br>
 Q : **Is there a built-in password manager?**  
 A : No. It utilizes the password manager specified in your Android system settings.  
-While Google Password Manager is the standard, warnings may appear on non-major browsers like Kiwi or Elixir depending on the Android version. However, password input itself works without issues.  
-Personally, I recommend using **Bitwarden** (the standalone app, not the extension). I have confirmed that passkeys work perfectly with it.  
-<br>
-Q : **There are two ad-blockers in the Speed Dial defaults; which one is recommended?**  
-A : Please use whichever you prefer. Personally, I use **AdGuard**.  
-
-- **uBlock Origin Lite**
-  - As of Jan 2026, loading external filters in the custom filter section is technically possible, but it feels like they don't work correctly when loaded.
-  - Compared to AdGuard, some ads are not blocked even with the same filters.
-  - The extension popup functions perfectly, and manual blocking via element selection is easy.
-
-- **AdGuard AdBlocker**
-  - Fully supports adding external filters, and gives the impression of no leaks.
-  - Blocking via element selection is difficult to use. There is also a strange lag in applying changes.
-  - It takes a while to start working after restarting the browser. It feels generally slow.
-
+While Google Password Manager is the standard, warnings may appear on non-major browsers like Kiwi or Elixir depending on the Android version, **but password input itself works without issues.**  
+Personally, I recommend using **Bitwarden** (the standalone app, not the extension). I have confirmed that passkeys work perfectly with it.
