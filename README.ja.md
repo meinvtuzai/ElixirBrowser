@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/SF-FLAM/ElixirBrowser/releases/latest"><img src="https://img.shields.io/badge/Download-Latest-brightgreen?style=for-the-badge"></a>
+  <a href="https://github.com/SF-FLAM/ElixirBrowser/releases"><img src="https://img.shields.io/badge/Download-Releases-brightgreen?style=for-the-badge"></a>
   <a href="https://github.com/sponsors/SF-FLAM"><img src="https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors"></a>
   <a href="https://buymeacoffee.com/sf_flam"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black"></a>
 </p>
@@ -80,10 +80,11 @@ Chromiumの改変とその保守は非常に過酷な作業です。
 
 ## ダウンロード
 
-最新バージョンのAPKは、以下のリンクからダウンロードできます。  
+APKは以下のリンクからダウンロードできます。  
 
 
-<<**[Latest Releases](https://github.com/SF-FLAM/ElixirBrowser/releases/latest)**>>
+<<**[Releases](https://github.com/SF-FLAM/ElixirBrowser/releases)**>>
+
 
 <br>
 
@@ -104,38 +105,30 @@ Chromiumの改変とその保守は非常に過酷な作業です。
 
 ## 不具合報告
 
-何か問題を見つけた場合は、GitHubの Issues までお寄せください。可能な限り改善に努めます。  
-基本的にタブバー表示かつ上部ツールバーモードで普段使いしているので、それ以外の状態だと見逃しているバグがあるかもしれません。
-    
+何か問題を見つけた場合は、GitHubの Issues までお寄せください。可能な限り改善に努めます。多分。  
+
 <<**[Issues](https://github.com/SF-FLAM/ElixirBrowser/issues)**>>
 
 <br>
 
 ## Q & A
 
+Q： **このブラウザは日常的に使用するのに十分な安定性がありますか？**  
+A：個人的にElixirをメインブラウザとして毎日使用しており、その安定性に満足していますが、皆にとってもそうとは限りません。  
+これは個人プロジェクトである為、アップデートには重大なバグ、クラッシュ、または機能の不具合が含まれる場合があります。  
+特に、私の端末では発生しないバグは見落とされがちです。このブラウザは開発途中のものであることを理解した上で、自己責任でご利用ください。  
+<br>
 Q : **対応している動作環境は？**  
-A : ベースとなっているChromiumに準拠します。現在は『Android 10+ (ARM64)』が条件です。32bit版はありません。  
+A：Chromiumの基本仕様に準拠しています。現在はAndroid 10以降（ARM64）が必要です。32ビット版は提供されていません。  
+ただし、私自身の端末でしかテストできないため、確実な互換性は保証できないことをご了承ください。  
 <br>
 Q : **どうしてオープンソースじゃないの？中身見せろ！**  
 A : 将来的にはOSS化を目指しています。現時点ではコメントを全て日本語で書いているので、公開するなら英語に直したい所です。  
-アップデートの方を優先しており、コードの管理まで手が回らないので、ゆっくり進めていこうと思います。  
+アップデートの方を優先しており、コードの管理まで手が回らないので、ゆっくり進めていこうと思います。 
+ただし、プロジェクトを終了することになった場合は、仮にコードがまだ整理されていなくても全て公開します。  
 <br>
 Q : **パスワードマネージャは無いの？**  
 A : ありません。Androidの本体設定で指定されているパスワードマネージャを使うようになっています。  
 標準だとGoogleパスワードマネージャが使われていると思いますが、AndroidのバージョンによってはKiwiやElixirなどの非大手ブラウザで警告が出るようです。パスワード入力自体は問題無く出来ます。  
 個人的にはBitwarden(拡張機能ではなくアプリの方)の使用を推奨しています。こちらだとパスキーも問題なく使える事が確認出来ています。  
-<br>
-Q : **スピードダイアルのデフォルトに広告ブロック系が2つもあるけど推奨はどっち？**  
-A : 好きな方を使ってください。個人的にはAdGuardの方を使っています。  
-
-- uBlockOriginLite
-  - 2026年1月現在、カスタムフィルタの欄で外部フィルタの読み込みも一応できるが、外部フィルタを読み込んだ場合は正常に動作していないような気がする。
-  - AdGuardに比べて同じフィルタでも消えない物がある。
-  - 拡張機能のポップアップは完全に機能しており、要素選択による手動ブロックも容易。
-
-- AdGuard AdBlocker
-  - 外部フィルタの追加に完全に対応しており、漏れが無い印象。
-  - 要素選択によるブロックがやりづらい。反映にも妙に間がある。
-  - ブラウザ再起動後に中々動き出してくれない。全体的に動きが遅い気がする。
- 
 
